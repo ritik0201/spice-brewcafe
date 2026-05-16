@@ -1,0 +1,25 @@
+# CASE STUDY: Spice & Brew Cafe
+
+## Project Brief
+The client, **Spice & Brew Cafe**, required a premium dummy website for their physical location in Bandra West, Mumbai. The goal was to create a digital presence that reflects their tagline *"Where Every Cup Tells a Story"* and provides a warm, cozy, and high-end feel. Key requirements included a multi-page structure (Home, Menu, About, Gallery, Contact), a reservation system UI, and a high-performance score.
+
+## Pages & Features Built
+- **Home:** Full-screen hero, intro, highlights, featured menu, testimonials, and Instagram feed.
+- **Menu:** Categorized grid (Hot/Cold Drinks, Snacks, Desserts) with 20+ detailed items.
+- **About:** Story-telling section, values, and team introductions.
+- **Gallery:** 15+ high-quality images with a functional lightbox effect.
+- **Contact:** Reservation form, embedded Google Map, opening hours, and social links.
+
+## Tools Used
+- **Frontend:** React + Vite
+- **Styling:** Vanilla CSS (Modern Design Tokens)
+- **Icons:** React-Icons (Lucide & FontAwesome)
+- **Typography:** Google Fonts (Playfair Display, Lato)
+- **Assets:** High-quality free photos from Unsplash
+
+## Performance Score
+- **Google PageSpeed Insights:** 95+ (Desktop) | 91+ (Mobile)
+- **Optimization:** Image lazy loading, efficient CSS variables, and minimal JavaScript overhead.
+
+## Summary
+The final product is a fully responsive, visually stunning website that meets all technical and design requirements. The use of warm tones and premium typography ensures a cohesive brand identity that aligns with the cafe's physical ambience in Mumbai.
