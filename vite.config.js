@@ -6,11 +6,12 @@ export default defineConfig({
   plugins: [react()],
   build: {
     cssCodeSplit: true,
-    minify: 'terser',
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom', 'react-router-dom'],
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return 'vendor';
+          }
         },
       },
     },
