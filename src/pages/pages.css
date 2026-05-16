@@ -1,7 +1,7 @@
 /* Home Page Styles */
 .hero {
   height: 100vh;
-  background-image: url('/hero-bg.jpg');
+  background-image: url('/hero-bg.webp');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -15,7 +15,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6); /* Increased for better text contrast */
 }
 
 .hero-content {
@@ -222,7 +222,7 @@
 
 .cta-section {
   padding: 100px 0;
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/cta-bg.jpg');
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/cta-bg.webp');
   background-size: cover;
   background-position: center;
   color: white;
@@ -237,7 +237,12 @@
 .cta-section p {
   font-size: 1.3rem;
   margin-bottom: 40px;
-  color: #d7ccc8;
+  color: #ffffff; /* Brighter white for contrast */
+}
+
+.social-icon:focus, .filter-btn:focus, .btn:focus, .nav-link:focus {
+  outline: 3px solid var(--secondary);
+  outline-offset: 3px;
 }
 
 @media (max-width: 768px) {
@@ -261,7 +266,7 @@
 /* Common Page Header */
 .page-header {
   padding: 150px 0 80px;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/page-header-bg.jpg');
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/page-header-bg.webp');
   background-size: cover;
   background-position: center;
   color: white;

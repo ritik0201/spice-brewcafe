@@ -9,19 +9,19 @@ const Home = () => {
       name: "Saffron Pistachio Latte",
       price: "₹345",
       desc: "Our signature blend with hand-picked saffron and roasted pistachios.",
-      img: "/featured-1.jpg"
+      img: "/featured-1.webp"
     },
     {
       name: "Butter Croissant",
       price: "₹185",
       desc: "Flaky, buttery layers baked fresh every morning at 6 AM.",
-      img: "/featured-2.jpg"
+      img: "/featured-2.webp"
     },
     {
       name: "Avocado Sourdough",
       price: "₹425",
       desc: "Creamy avocado on toasted sourdough with chili flakes and lime.",
-      img: "/featured-3.jpg"
+      img: "/featured-3.webp"
     }
   ];
 
@@ -47,10 +47,10 @@ const Home = () => {
   ];
 
   const instaPhotos = [
-    "/insta-1.jpg",
-    "/insta-2.jpg",
-    "/insta-3.jpg",
-    "/insta-4.jpg"
+    "/insta-1.webp",
+    "/insta-2.webp",
+    "/insta-3.webp",
+    "/insta-4.webp"
   ];
 
   return (
@@ -86,17 +86,17 @@ const Home = () => {
           <div className="highlights-grid">
             <div className="highlight-item text-center">
               <div className="highlight-icon"><LuCoffee /></div>
-              <h3>Specialty Coffee</h3>
+              <h2 style={{ fontSize: '1.5rem' }}>Specialty Coffee</h2>
               <p>Ethically sourced beans roasted to perfection by our master baristas.</p>
             </div>
             <div className="highlight-item text-center">
               <div className="highlight-icon"><LuCroissant /></div>
-              <h3>Fresh Bakery</h3>
+              <h2 style={{ fontSize: '1.5rem' }}>Fresh Bakery</h2>
               <p>Handcrafted pastries and artisanal breads baked fresh in our kitchen every day.</p>
             </div>
             <div className="highlight-item text-center">
               <div className="highlight-icon"><LuLeaf /></div>
-              <h3>Cozy Ambience</h3>
+              <h2 style={{ fontSize: '1.5rem' }}>Cozy Ambience</h2>
               <p>Warm lighting, comfortable seating, and a peaceful vibe for your best moments.</p>
             </div>
           </div>
@@ -118,7 +118,7 @@ const Home = () => {
                 </div>
                 <div className="menu-info">
                   <div className="menu-title-price">
-                    <h3>{item.name}</h3>
+                    <h3 style={{ fontSize: '1.3rem' }}>{item.name}</h3>
                     <span className="price">{item.price}</span>
                   </div>
                   <p>{item.desc}</p>

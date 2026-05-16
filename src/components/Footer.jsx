@@ -12,9 +12,9 @@ const Footer = () => {
             <h3>Spice & Brew</h3>
             <p>Where Every Cup Tells a Story. Experience the finest specialty coffee and fresh bakery items in the heart of Bandra.</p>
             <div className="social-links">
-              <a href="#" className="social-icon"><FaFacebookF /></a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon"><FaInstagram /></a>
-              <a href="#" className="social-icon"><FaTwitter /></a>
+              <a href="#" className="social-icon" aria-label="Follow us on Facebook"><FaFacebookF /></a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Follow us on Instagram"><FaInstagram /></a>
+              <a href="#" className="social-icon" aria-label="Follow us on Twitter"><FaTwitter /></a>
             </div>
           </div>
 

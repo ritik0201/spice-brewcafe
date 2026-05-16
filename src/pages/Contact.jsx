@@ -48,9 +48,9 @@ const Contact = () => {
               </div>
 
               <div className="social-links" style={{ marginTop: '40px' }}>
-                <a href="#" className="social-icon" style={{ background: 'var(--primary)' }}><FaFacebookF /></a>
-                <a href="#" className="social-icon" style={{ background: 'var(--primary)' }}><FaInstagram /></a>
-                <a href="#" className="social-icon" style={{ background: 'var(--primary)' }}><FaTwitter /></a>
+                <a href="#" className="social-icon" style={{ background: 'var(--primary)' }} aria-label="Follow us on Facebook"><FaFacebookF /></a>
+                <a href="#" className="social-icon" style={{ background: 'var(--primary)' }} aria-label="Follow us on Instagram"><FaInstagram /></a>
+                <a href="#" className="social-icon" style={{ background: 'var(--primary)' }} aria-label="Follow us on Twitter"><FaTwitter /></a>
               </div>
             </div>
 
