@@ -33,7 +33,7 @@ const About = () => {
         <div className="container">
           <div className="about-grid">
             <div className="about-img">
-              <img src="/about-hero.webp" alt="Cafe Interior" />
+              <img src="/about-hero.webp" alt="Cafe Interior" width="800" height="600" loading="lazy" />
             </div>
             <div className="about-text">
               <h2 className="heading-md">How It All Started</h2>
@@ -75,7 +75,7 @@ const About = () => {
             {team.map((member, i) => (
               <div key={i} className="team-card">
                 <div className="team-img">
-                  <img src={member.img} alt={member.name} />
+                  <img src={member.img} alt={member.name} width="400" height="400" loading="lazy" />
                 </div>
                 <h3>{member.name}</h3>
                 <p>{member.role}</p>

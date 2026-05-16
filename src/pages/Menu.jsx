@@ -189,7 +189,7 @@ const Menu = () => {
             {filteredItems.map((item, index) => (
               <div key={index} className="menu-card fade-in">
                 <div className="menu-img-wrapper">
-                  <img src={item.img} alt={item.name} loading="lazy" />
+                  <img src={item.img} alt={item.name} width="400" height="400" loading="lazy" />
                 </div>
                 <div className="menu-info">
                   <div className="menu-title-price">

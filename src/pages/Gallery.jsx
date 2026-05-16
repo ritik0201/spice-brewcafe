@@ -37,7 +37,7 @@ const Gallery = () => {
           <div className="gallery-grid">
             {photos.map((photo, i) => (
               <div key={i} className="gallery-item fade-in" onClick={() => setSelectedImg(photo)} title="View Image">
-                <img src={photo} alt={`Gallery Image ${i + 1}`} loading="lazy" />
+                <img src={photo} alt={`Gallery Image ${i + 1}`} width="800" height="600" loading="lazy" />
                 <div className="insta-overlay">
                   <FaSearchPlus />
                 </div>

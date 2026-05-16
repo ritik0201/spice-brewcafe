@@ -114,7 +114,7 @@ const Home = () => {
             {featuredItems.map((item, index) => (
               <div key={index} className="menu-card">
                 <div className="menu-img-wrapper">
-                  <img src={item.img} alt={item.name} />
+                  <img src={item.img} alt={item.name} width="600" height="400" loading="lazy" />
                 </div>
                 <div className="menu-info">
                   <div className="menu-title-price">
@@ -166,7 +166,7 @@ const Home = () => {
           <div className="insta-grid">
             {instaPhotos.map((photo, i) => (
               <div key={i} className="insta-item">
-                <img src={photo} alt="Instagram post" />
+                <img src={photo} alt="Instagram post" width="400" height="400" loading="lazy" />
                 <div className="insta-overlay">
                   <LuInstagram />
                 </div>
