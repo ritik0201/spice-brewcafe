@@ -59,9 +59,9 @@ const Home = () => {
       <section className="hero">
         <div className="hero-overlay"></div>
         <div className="container hero-content text-center">
-          <h1 className="fade-in heading-lg">Spice & Brew Cafe</h1>
-          <p className="fade-in tagline">"Where Every Cup Tells a Story"</p>
-          <div className="hero-btns fade-in">
+          <h1 className="heading-lg">Spice & Brew Cafe</h1>
+          <p className="tagline">"Where Every Cup Tells a Story"</p>
+          <div className="hero-btns">
             <Link to="/menu" className="btn btn-outline" style={{ borderColor: 'white', color: 'white', marginRight: '15px' }}>View Menu</Link>
             <Link to="/contact" className="btn btn-primary">Reserve a Table</Link>
           </div>
