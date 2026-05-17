@@ -6,17 +6,17 @@ const About = () => {
     {
       name: "Chef Arjun Kapoor",
       role: "Head Pastry Chef",
-      img: "/team-1.webp"
+      img: "/images/team-1.webp"
     },
     {
       name: "Priya Sharma",
       role: "Master Barista",
-      img: "/team-2.webp"
+      img: "/images/team-2.webp"
     },
     {
       name: "Vikram Mehra",
       role: "Founder",
-      img: "/team-3.webp"
+      img: "/images/team-3.webp"
     }
   ];
 
@@ -33,7 +33,7 @@ const About = () => {
         <div className="container">
           <div className="about-grid">
             <div className="about-img">
-              <img src="/about-hero.webp" alt="Cafe Interior" width="800" height="600" loading="lazy" />
+              <img src="/images/about-hero.webp" alt="Cafe Interior" width="800" height="600" loading="lazy" />
             </div>
             <div className="about-text">
               <h2 className="heading-md">How It All Started</h2>

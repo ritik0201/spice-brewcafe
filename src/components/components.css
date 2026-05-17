@@ -1,4 +1,5 @@
-/* Navbar Styles */
+/* === NAVBAR === */
+/* Used on: All Pages */
 .navbar {
   position: fixed;
   top: 0;
@@ -123,7 +124,8 @@
   }
 }
 
-/* Footer Styles */
+/* === FOOTER === */
+/* Used on: All Pages */
 .footer {
   background-color: var(--primary-dark);
   color: var(--white);

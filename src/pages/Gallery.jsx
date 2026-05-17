@@ -6,21 +6,20 @@ const Gallery = () => {
   const [selectedImg, setSelectedImg] = useState(null);
 
   const photos = [
-    "/gallery-0.webp",
-    "/gallery-1.webp",
-    "/gallery-2.webp",
-    "/gallery-3.webp",
-    "/gallery-4.webp",
-    "/gallery-5.webp",
-    "/gallery-6.webp",
-    "/gallery-7.webp",
-    "/gallery-8.webp",
-    "/gallery-9.webp",
-    "/gallery-10.webp",
-    "/gallery-11.webp",
-    "/gallery-12.webp",
-    "/gallery-13.webp",
-    "/gallery-14.webp"
+    "/images/gallery-0.webp",
+    "/images/gallery-1.webp",
+    "/images/gallery-2.webp",
+    "/images/gallery-3.webp",
+    "/images/gallery-4.webp",
+    "/images/gallery-5.webp",
+    "/images/gallery-6.webp",
+    "/images/gallery-7.webp",
+    "/images/gallery-8.webp",
+    "/images/gallery-9.webp",
+    "/images/gallery-10.webp",
+    "/images/gallery-11.webp",
+    "/images/gallery-12.webp",
+    "/images/gallery-13.webp"
   ];
 
   return (

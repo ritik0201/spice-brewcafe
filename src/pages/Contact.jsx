@@ -38,13 +38,12 @@ const Contact = () => {
                   <h4>Email Us</h4>
                   <p>hello@spiceandbrew.com</p>
                 </div>
-              </div>
-
-              <div className="info-card" style={{ marginTop: '20px', textAlign: 'left' }}>
-                <FaClock className="highlight-icon" style={{ float: 'left', marginRight: '15px' }} />
-                <h4>Opening Hours</h4>
-                <p>Monday - Friday: 8:00 AM - 10:00 PM</p>
-                <p>Saturday - Sunday: 9:00 AM - 11:00 PM</p>
+                <div className="info-card">
+                  <FaClock className="highlight-icon" />
+                  <h4>Opening Hours</h4>
+                  <p>Monday - Friday: 8:00 AM - 10:00 PM</p>
+                  <p>Saturday - Sunday: 9:00 AM - 11:00 PM</p>
+                </div>
               </div>
 
               <div className="social-links" style={{ marginTop: '40px' }}>
@@ -65,16 +64,17 @@ const Contact = () => {
                 <div className="form-grid">
                   <div className="form-group">
                     <label htmlFor="date">Date</label>
-                    <input type="date" id="date" className="form-control" required />
+                    <input type="text" id="date" className="form-control" placeholder="Select date" onFocus={(e) => e.target.type = 'date'} onBlur={(e) => e.target.type = e.target.value ? 'date' : 'text'} required />
                   </div>
                   <div className="form-group">
                     <label htmlFor="time">Time</label>
-                    <input type="time" id="time" className="form-control" required />
+                    <input type="text" id="time" className="form-control" placeholder="Select time" onFocus={(e) => e.target.type = 'time'} onBlur={(e) => e.target.type = e.target.value ? 'time' : 'text'} required />
                   </div>
                 </div>
                 <div className="form-group">
                   <label htmlFor="guests">Number of Guests</label>
-                  <select id="guests" className="form-control" required>
+                  <select id="guests" className="form-control" required defaultValue="">
+                    <option value="" disabled hidden>Select number of guests</option>
                     <option value="1">1 Person</option>
                     <option value="2">2 People</option>
                     <option value="3">3 People</option>

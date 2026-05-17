@@ -9,19 +9,19 @@ const Home = () => {
       name: "Saffron Pistachio Latte",
       price: "₹345",
       desc: "Our signature blend with hand-picked saffron and roasted pistachios.",
-      img: "/featured-1.webp"
+      img: "/images/featured-1.webp"
     },
     {
       name: "Butter Croissant",
       price: "₹185",
       desc: "Flaky, buttery layers baked fresh every morning at 6 AM.",
-      img: "/featured-2.webp"
+      img: "/images/featured-2.webp"
     },
     {
       name: "Avocado Sourdough",
       price: "₹425",
       desc: "Creamy avocado on toasted sourdough with chili flakes and lime.",
-      img: "/featured-3.webp"
+      img: "/images/featured-3.webp"
     }
   ];
 
@@ -47,10 +47,10 @@ const Home = () => {
   ];
 
   const instaPhotos = [
-    "/insta-1.webp",
-    "/insta-2.webp",
-    "/insta-3.webp",
-    "/insta-4.webp"
+    "/images/insta-1.webp",
+    "/images/insta-2.webp",
+    "/images/insta-3.webp",
+    "/images/insta-4.webp"
   ];
 
   return (
@@ -62,7 +62,7 @@ const Home = () => {
           <h1 className="heading-lg">Spice & Brew Cafe</h1>
           <p className="tagline">"Where Every Cup Tells a Story"</p>
           <div className="hero-btns">
-            <Link to="/menu" className="btn btn-outline" style={{ borderColor: 'white', color: 'white', marginRight: '15px' }}>View Menu</Link>
+            <Link to="/menu" className="btn btn-outline-white">View Menu</Link>
             <Link to="/contact" className="btn btn-primary">Reserve a Table</Link>
           </div>
         </div>

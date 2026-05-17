@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
+import ScrollToTop from './components/ScrollToTop';
 
 // Lazy load other pages
 const Menu = lazy(() => import('./pages/Menu'));
@@ -12,6 +13,7 @@ const Contact = lazy(() => import('./pages/Contact'));
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Layout>
         <Suspense fallback={<div className="container" style={{ padding: '100px 0', textAlign: 'center' }}>Loading...</div>}>
           <Routes>
